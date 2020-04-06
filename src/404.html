@@ -4,17 +4,78 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clic.ly - Not found page</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?
+family=Bitter:400,400i,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?
+family=Comfortaa:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="css/settings/color.css" />
+    <link rel="stylesheet" href="css/settings/gap.css" />
+    <link rel="stylesheet" href="css/generic/reset.css" />
+    <link rel="stylesheet" href="css/elements/base.css" />
+
+    <link rel="stylesheet" href="css/components/main-logo.css" />
+    <link rel="stylesheet" href="css/components/simple-action.css" />
+    <link rel="stylesheet" href="css/components/primary-button.css" />
+    <link rel="stylesheet" href="css/components/simple-title.css" />
+    <link rel="stylesheet" href="css/components/simple-subtitle.css" />
+    <link rel="stylesheet" href="css/components/footer-text.css" />
+    <link rel="stylesheet" href="css/components/dashed-divisor.css" />
+    <link rel="stylesheet" href="css/components/social-icon.css" />
+
+    <link rel="stylesheet" href="css/containers/wrapper-content.css" />
+    <link rel="stylesheet" href="css/containers/main-header.css" />
+    <link rel="stylesheet" href="css/containers/main-menu.css" />
+    <link rel="stylesheet" href="css/containers/main-stage.css" />
+    <link rel="stylesheet" href="css/containers/main-footer.css" />
+    <link rel="stylesheet" href="css/containers/social-footer.css" />
   </head>
   <body>
-    <header>
-      <h1>Clic.ly</h1>
+    <div class="wrapper-content">
+      <header class="main-header">
+        <h1 class="main-logo">Clic.ly</h1>
 
-      <nav>
-        <a href="">Home</a>
-        <a href="">Pricing</a>
-        <a href="">About Us</a>
-        <a href="">Log in</a>
-      </nav>
-    </header>
+        <nav class="main-menu">
+          <a class="simple-action" href="">Home</a>
+          <a class="simple-action" href="">Pricing</a>
+          <a class="simple-action" href="">About Us</a>
+          <a class="primary-button" href="">Log in</a>
+        </nav>
+      </header>
+
+      <section class="main-stage">
+        <h1 class="simple-title">
+          Seems like we were not ready for that click
+        </h1>
+        <h2 class="simple-subtitle">Well, let's at least play a game?</h2>
+        <a class="primary-button -dark" href="">Play</a>
+        <a class="simple-action -light" href="">Go Home</a>
+      </section>
+
+      <footer class="main-footer">
+        <div class="social-footer">
+          <i class="fa fa-twitter social-icon"></i>
+          <i class="fa fa-facebook-square social-icon"></i>
+          <i class="fa fa-instagram social-icon"></i>
+        </div>
+        <hr class="dashed-divisor" />
+        <span class="footer-text"
+          >&copy; Business 2020. All rights reserved. Company registered in US
+          No. 123456789.</span
+        >
+      </footer>
+    </div>
   </body>
 </html>
